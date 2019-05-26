@@ -1,0 +1,21 @@
+services:
+    Picaron.StoreToMega.listener:
+        class: Picaron\StoreToMega\event\listener
+        arguments:
+            - '@user'
+            - '@template'
+        tags:
+            - { name: event.listener }
+
+    Picaron.StoreToMega.controller:
+        class: Picaron\StoreToMega\controller\main
+        arguments:
+            - '@Picaron.StoreToMega.core.storetomega.input.upload'
+            - '@user'
+            - '@request'
+
+    Picaron.StoreToMega.core.storetomega.input.upload:
+        class: Picaron\StoreToMega\core\storetomega_input_upload
+        arguments:
+            - '@user'
+            - '@request'

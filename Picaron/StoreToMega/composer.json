@@ -1,0 +1,32 @@
+{
+    "name": "Picaron/StoreToMega",
+    "type": "phpbb-extension",
+    "description": "Store One File To MEGA",
+    "homepage": "",
+    "version": "1.0.0",
+    "time": "2017-08-25",
+    "keywords": ["phpbb", "extension", "mega", "upload", "file"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Picaron",
+            "homepage": "https://github.com/picaronin",
+            "role": "Extension Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpbb/phpbb": ">=3.2.0"
+    },
+    "extra": {
+        "display-name": "Store To Mega",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.0"
+        },
+        "version-check": {
+            "host": "www.siteproall.com",
+            "directory": "/StoreToMega",
+            "filename": "storetomega_version"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+services:
+    pikaron.storetomega.listener:
+        class: pikaron\storetomega\event\listener
+        arguments:
+            - '@language'
+            - '@template'
+        tags:
+            - { name: event.listener }
+
+    pikaron.storetomega.controller:
+        class: pikaron\storetomega\controller\main
+        arguments:
+            - '@pikaron.storetomega.core.storetomega.input.upload'
+            - '@language'
+            - '@request'
+
+    pikaron.storetomega.core.storetomega.input.upload:
+        class: pikaron\storetomega\core\storetomega_input_upload
+        arguments:
+            - '@language'
+            - '@request'
+    _defaults:
+        public: true

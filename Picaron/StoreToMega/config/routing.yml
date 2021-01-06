@@ -1,3 +1,0 @@
-Picaron_StoreToMega_controller:
-    path: /storetomega
-    defaults: { _controller: Picaron.StoreToMega.controller:handle_storetomega }

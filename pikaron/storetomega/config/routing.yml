@@ -1,0 +1,3 @@
+pikaron_storetomega_controller:
+    path: /storetomega
+    defaults: { _controller: pikaron.storetomega.controller:handle_storetomega }

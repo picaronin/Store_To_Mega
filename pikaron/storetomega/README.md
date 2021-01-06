@@ -9,7 +9,7 @@ This Extension endows our forum with the option to upload and host any type of f
 * This Extension REQUIRES a server under [Debian](https://www.debian.org/) or [Ubuntu](https://ubuntu.com/)
 * phpBB >= 3.2.8
 * PHP >= 7.1.0
-* This Extension is has checked on a server under Debian Jessie with [MEGATOOLS](https://megatools.megous.com/) installed from [this Debian Repository](https://packages.debian.org/sid/amd64/megatools/download).
+* This Extension is has checked on a server under Debian Buster with [MEGATOOLS](https://megatools.megous.com/) installed from [this Debian Repository](https://packages.debian.org/sid/amd64/megatools/download).
 * **WARNING: IF YOUR SERVER DOES NOT MEET THESE REQUIREMENTS, THIS EXTENSION WILL NOT SERVE YOU FOR ANYTHING.**
 * **Important ::: Previous Step ::: Completely uninstall / Remove version 1.0.0 of the extension if it was previously installed.**
 

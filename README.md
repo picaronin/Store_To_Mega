@@ -1,8 +1,8 @@
 [![phpBB](https://www.phpbb-es.com/foro/styles/flat-style/theme/images/logo_new_small.png)](https://www.phpbb-es.com/foro/viewtopic.php?f=147&t=42204)
-# [3.2][RC] StoreToMega 3.2.8
+# [3.2][RC] StoreToMega 3.3.10
 This Extension endows our forum with the option to upload and host any type of file in [MEGA](https://mega.nz) when we are creating or editing a thread. Once uploaded, he make the download link to include in our forum message.
 * You need to configure from the ACP the maximum size of the file to host, as well as the login data of the [MEGA](https://mega.nz) account to be used.
-* It is totally viable to use a FREE account of [MEGA](https://mega.nz), which finally includes 15GB of free storage.
+* It is totally viable to use a FREE account of [MEGA](https://mega.nz), which finally includes 20GB of free storage.
 
 ## Requirements
 * This Extension REQUIRES that has INSTALLED and OPERATING on OUR server, the [MEGATOOLS](https://megatools.megous.com/) tool.
